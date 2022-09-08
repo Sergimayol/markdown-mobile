@@ -1,23 +1,18 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
+import indexStyle from "./index.style";
+import Menu from "./components/Menu";
+import Viewer from "./components/Viewer";
 
 const MyApp = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <View style={indexStyle.container}>
+      <Menu />
+      <Viewer />
       <StatusBar style="auto" />
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
 
 export default MyApp;

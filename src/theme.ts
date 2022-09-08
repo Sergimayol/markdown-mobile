@@ -3,6 +3,7 @@ const config = {
   initialColorMode: "light",
 };
 
+// https://www.color-name.com/
 const colors = {
   primary: {
     50: "#EEF2F6",
@@ -16,6 +17,81 @@ const colors = {
     800: "#223044",
     900: "#111822",
   },
+  customColors: {
+    licorice: "#171308",
+    blackChocolate: "#1C1711",
+    rocketMetallic: "#857c77",
+    silverChalice: "#b4aaa8",
+  },
 };
 
-export default { config, colors };
+const fontSizes = {
+  body: 14,
+  subheading: 16,
+  heading: 20,
+  title: 24,
+};
+
+const fonts = {
+  main: "System",
+  other: "Helvetica",
+};
+
+const fontWeights = {
+  normal: "400",
+  bold: "700",
+};
+
+const spaces = {
+  sm: 8,
+  md: 16,
+  ll: 32,
+  xl: 64,
+  xxl: 128,
+};
+
+const palettes = {
+  brightOcean: {
+    primary: "#1f2326",
+    secondary: "#1e3030",
+    tertiary: "#1a494f",
+    quaternary: "#d5dbe7",
+  },
+  darkOcean: {
+    primary: colors.customColors.licorice,
+    secondary: colors.customColors.blackChocolate,
+    tertiary: colors.customColors.rocketMetallic,
+    quaternary: colors.customColors.silverChalice,
+  },
+  sunsetMountain: {
+    primary: "#1c232d",
+    secondary: "#46474b",
+    tertiary: "#f48b0c",
+    quaternary: "#eee9e6",
+  },
+  coffeeBar: {
+    primary: "#0c1622",
+    secondary: "#b4560e",
+    tertiary: "#9c9489",
+    quaternary: "#dfdde2",
+  },
+};
+
+const theme = {
+  darkOcean: {
+    colors: palettes.darkOcean,
+    fontSizes: fontSizes,
+    fonts: fonts,
+    fontWeights: fontWeights,
+    spaces: spaces,
+  },
+  brightOcean: {
+    colors: palettes.brightOcean,
+    fontSizes: fontSizes,
+    fonts: fonts,
+    fontWeights: fontWeights,
+    spaces: spaces,
+  },
+};
+
+export default theme;
