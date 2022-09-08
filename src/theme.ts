@@ -22,6 +22,12 @@ const colors = {
     blackChocolate: "#1C1711",
     rocketMetallic: "#857c77",
     silverChalice: "#b4aaa8",
+    cyanBlueAzure: "#4183C4",
+    lightGrey: "#ACADAC",
+    gainsboro: "#DDDDDD",
+    plainWhite: "#FFFFFF",
+    raisinBlack: "#222222",
+    grey: "#7B7B7D",
   },
 };
 
@@ -34,7 +40,25 @@ const fontSizes = {
 
 const fonts = {
   main: "System",
-  other: "Helvetica",
+  ios: {
+    SanFrancisco: "San Francisco",
+    academyEngravedLET: "Academy Engraved LET",
+    academyEngravedLetPlain: "AcademyEngravedLetPlain",
+    alNile: "Al Nile",
+    alNileBold: "AlNile-Bold",
+    americanTypewriter: "American Typewriter",
+    americanTypewriterBold: "AmericanTypewriter-Bold",
+    americanTypewriterCondensed: "AmericanTypewriter-Condensed",
+    appleColorEmoji: "Apple Color Emoji",
+  },
+  android: {
+    normal: "normal",
+    notoserif: "notoserif",
+    sansserif: "sans-serif",
+    serif: "serif",
+    roboto: "Roboto",
+    monospace: "monospace",
+  },
 };
 
 const fontWeights = {
@@ -92,6 +116,8 @@ const theme = {
     fontWeights: fontWeights,
     spaces: spaces,
   },
+  customColors: colors.customColors,
+  primaryColors: colors.primary,
 };
 
 export default theme;
