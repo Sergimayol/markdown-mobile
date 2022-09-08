@@ -1,6 +1,20 @@
 {
   "name": "markdown-mobile",
+  "description": "Markdown Mobile",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftzdog/react-native-animated-todo.git"
+  },
+  "author": {
+    "name": "Sergi Mayol",
+    "url": "https://github.com/Sergimayol"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "markdown"
+  ],
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
