@@ -4,7 +4,7 @@ import Markdown from "react-native-markdown-package";
 import viewerStyle from "./Viewer.style";
 import markdownStyle from "../utils/markdownStyle";
 
-const mkdStr = `
+const example = `
 # Markdown Editor
 
 ---
@@ -61,10 +61,38 @@ this is an example for adding picture:
 
 `;
 
-export default class Viewer extends Component<{}> {
+const defaultIntroText = `
+# Hello👋!!
+
+--- 
+
+- This is Mobile app to preview markdown files.
+
+## Getting Started🚀
+
+- Click on the menu button \`Open file\` (on the top left corner) to select a markdown file from your device.
+
+## Features✔️
+
+- [x] Open markdown file from your device
+- [x] Preview markdown file
+- [ ] Edit markdown file
+- [ ] Add a complete markdown renderer (including all md syntax and latex)
+
+## Bugs🐞 and Issues🤔
+
+- If you encounter any bugs or issues, feel free to open an issue [here]("https://github.com/Sergimayol/markdown-mobile/issues").
+- Also this is an open source project, so feel free to contribute to this project with a pull request.
+
+## License📜
+- [MIT](https://github.com/Sergimayol/markdown-mobile/blob/main/LICENSE)
+
+---
+`;
+
+export default class Viewer extends Component<{ text: string }> {
   render() {
-    const text = "";
-    const md = text === "" ? mkdStr : text;
+    const markdownContent = this.props.text || defaultIntroText;
     return (
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
@@ -75,7 +103,7 @@ export default class Viewer extends Component<{}> {
             styles={markdownStyle}
             onLink={(url: string) => Linking.openURL(url)}
           >
-            {md}
+            {markdownContent}
           </Markdown>
         </View>
       </ScrollView>

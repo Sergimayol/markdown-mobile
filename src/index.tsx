@@ -9,7 +9,7 @@ const MyApp = () => {
   return (
     <View style={indexStyle.container}>
       <Menu />
-      <Viewer />
+      <Viewer text="" />
       <StatusBar style="auto" />
     </View>
   );

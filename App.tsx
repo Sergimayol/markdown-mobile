@@ -1,6 +1,26 @@
 import React from "react";
-import MyApp from "./src";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Home from "./src/screens";
+import Renderer from "./src/screens/renderer";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
-  return <MyApp />;
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{ headerShown: true }}
+        />
+        <Stack.Screen
+          name="Renderer"
+          component={Renderer}
+          options={{ headerShown: true }}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
