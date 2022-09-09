@@ -77,7 +77,7 @@ const defaultIntroText = `
 
 ## Bugs🐞 and Issues🤔
 
-- If you encounter any bugs or issues, feel free to open an issue [here]("https://github.com/Sergimayol/markdown-mobile/issues").
+- If you encounter any bugs or issues, feel free to open an issue [here](https://github.com/Sergimayol/markdown-mobile/issues).
 - Also this is an open source project, so feel free to contribute to this project with a pull request.
 
 ## License📜
