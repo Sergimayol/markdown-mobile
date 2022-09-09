@@ -23,25 +23,39 @@ const markdownStyle = {
   },
   heading1: {
     fontSize: 32,
+    paddingBottom: theme.darkOcean.spaces.sm,
+    paddingTop: theme.darkOcean.spaces.sm,
   },
   heading2: {
     fontSize: 24,
+    paddingBottom: theme.darkOcean.spaces.sm,
+    paddingTop: theme.darkOcean.spaces.sm,
   },
   heading3: {
     fontSize: 18,
+    paddingBottom: theme.darkOcean.spaces.sm,
+    paddingTop: theme.darkOcean.spaces.sm,
   },
   heading4: {
     fontSize: 16,
+    paddingBottom: theme.darkOcean.spaces.sm,
+    paddingTop: theme.darkOcean.spaces.sm,
   },
   heading5: {
     fontSize: 13,
+    paddingBottom: theme.darkOcean.spaces.sm,
+    paddingTop: theme.darkOcean.spaces.sm,
   },
   heading6: {
     fontSize: 11,
+    paddingBottom: theme.darkOcean.spaces.sm,
+    paddingTop: theme.darkOcean.spaces.sm,
   },
   hr: {
     backgroundColor: "#cccccc",
     height: 1,
+    marginBottom: theme.darkOcean.spaces.sm,
+    marginTop: theme.darkOcean.spaces.xsm,
   },
   image: {
     //height: 50, // TODO: React Native needs to support auto image size

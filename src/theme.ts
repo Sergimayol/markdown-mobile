@@ -67,6 +67,7 @@ const fontWeights = {
 };
 
 const spaces = {
+  xsm: 4,
   sm: 8,
   md: 16,
   ll: 32,
