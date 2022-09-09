@@ -13,12 +13,12 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={Home}
-          options={{ headerShown: true }}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Renderer"
           component={Renderer}
-          options={{ headerShown: true }}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
