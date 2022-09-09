@@ -8,9 +8,8 @@
 
 ##### **For now, the download it's only aviable on `.apk`**
 
-- There's three options to download the app:
+- There's two options to download the app:
   - [Download the `.apk`](https://github.com/Sergimayol/markdown-mobile/releases)
-  - Scan the QR code on Expo Go app
   - Or you can download the source code and run it on the Expo Go app.
 
 ### Options
@@ -19,12 +18,6 @@
 
 1. Install the `.apk` on your device
 2. Run the app
-3. Ready!
-
-#### Scan the QR code on Expo
-
-1. Install the Expo Go app on your device
-2. Scan the [QR code](./docs/QRCode.jpeg)
 3. Ready!
 
 #### How to run the source code
@@ -38,8 +31,8 @@
 ## Development
 
 ```bash
-npm install
-expo start or npm start
+$ npm install
+$ expo start or npm start
 ```
 
 ## Project structure
@@ -58,3 +51,7 @@ expo start or npm start
 ## License
 
 [MIT](./LICENSE)
+
+## App preview
+
+<p align="center"><img src="./docs/appview.jpeg"></p>
