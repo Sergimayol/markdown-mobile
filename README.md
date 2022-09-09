@@ -24,7 +24,7 @@
 
 1. Download the Expo App on your phone.
 2. Run `npm install` on the project folder.
-3. Run `npm start` or `expo start` on the project folder. (You need to have Expo installed on your computer).
+3. Run `npm start` or `expo start` on the project folder. (You need to have Expo installed on your divice).
 4. Scan the QR code with the Expo Go App or introduce the link provided.
 5. Ready!
 
@@ -48,10 +48,10 @@ $ expo start or npm start
     └── theme.ts    # Themes
 ```
 
-## License
-
-[MIT](./LICENSE)
-
 ## App preview
 
 <p align="center"><img src="./docs/appview.jpeg" height="450px"></p>
+
+## License
+
+[MIT](./LICENSE)
