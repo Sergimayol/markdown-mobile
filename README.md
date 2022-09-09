@@ -54,4 +54,4 @@ $ expo start or npm start
 
 ## App preview
 
-<p align="center"><img src="./docs/appview.jpeg"></p>
+<p align="center"><img src="./docs/appview.jpeg" height="450px"></p>
