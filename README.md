@@ -14,13 +14,13 @@
 
 ### Options
 
-#### Dowload the `.apk`
+#### 1. Dowload the `.apk`
 
 1. Install the `.apk` on your device
 2. Run the app
 3. Ready!
 
-#### How to run the source code
+#### 2. How to run the source code
 
 1. Download the Expo App on your phone.
 2. Run `npm install` on the project folder.
