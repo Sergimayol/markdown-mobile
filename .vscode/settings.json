@@ -27,5 +27,10 @@
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "colorize.languages": ["javascript", "typescript", "typescriptreact"]
+  "colorize.languages": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "markdown"
+  ]
 }
