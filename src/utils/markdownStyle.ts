@@ -68,6 +68,7 @@ const markdownStyle = {
     borderWidth: 1,
     fontFamily: theme.darkOcean.fonts.main,
     fontWeight: "bold",
+    fontStyle: "italic",
     margin: 1,
     padding: 1,
   },
